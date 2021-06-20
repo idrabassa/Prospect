@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+:root {
+  --clr-dark-blue-elements-dark-mode: hsl(209, 23%, 22%);
+  --clr-very-dark-blue-background-dark-mode: hsl(207, 26%, 17%);
+  --clr-very-dark-blue-text-ligth-mode: hsl(200, 15%, 8%);
+  --clr-dark-grey-input-ligth-mode:hsl(0, 0%, 52%);
+  --clr-very-light-grey-background-ligth-mode:hsl(0, 0%, 98%);
+  --clr-white-text-dark-mode-elements-ligth-mode:hsl(0, 0%, 100%);
+    /* dark shades of primary color*/
+    --clr-primary-1: hsl(205, 86%, 17%);
+    --clr-primary-2: hsl(205, 77%, 27%);
+    --clr-primary-3: hsl(205, 72%, 37%);
+    --clr-primary-4: hsl(205, 63%, 48%);
+   /* darkest grey - used for headings */
+   --clr-grey-1: hsl(209, 61%, 16%);
+   --clr-grey-2: hsl(211, 39%, 23%);
+   --clr-grey-3: hsl(209, 34%, 30%);
+   --clr-grey-4: hsl(209, 28%, 39%);
+   /* grey used for paragraphs */
+   --clr-grey-5: hsl(210, 22%, 49%);
+   --clr-grey-6: hsl(209, 23%, 60%);
+   --clr-grey-7: hsl(211, 27%, 70%);
+   --clr-grey-8: hsl(210, 31%, 80%);
+   --clr-grey-9: hsl(212, 33%, 89%);
+   --clr-grey-10: hsl(210, 36%, 96%);
+
+  --font-size-detail-page:1rem;
+  --font-size-home-page-items:0.875rem;
+  --font-weight-1:300;
+  --font-weight-2:600;
+  --font-weight-3:800;
+  --max-width: 1440px;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  --radius: 0.25rem;
+  --transition: all 0.3s linear;
+}
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: var(--font-weight-1);
+  background: var(--clr-bcg);
+  color: var(--clr-font);
+  line-height: 1.5;
+  font-size: var(--font-size-home-page-items);
+  transition: all 0.3s linear;
+  background: var(--clr-very-light-grey-background-ligth-mode);
+}
+
+h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p{
+  text-overflow: ellipsis;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+/* 
+=============
+Navbar Styles
+=============
+*/
